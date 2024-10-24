@@ -17,109 +17,91 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 --->
 
-# Sarth - A Complete Transportation Management System
+# Sarthi
 
-Sarth is a comprehensive transportation management system designed for educational institutes, aimed at managing routes, drivers, user records, emergency alerts (SOS), and fee statuses. This system provides an efficient solution to handle the various operations required in managing a transportation network. It is built using **Flutter** for the frontend and offers an intuitive, user-friendly interface for both admins and users.
+Sarthi is a comprehensive student transportation management system designed to streamline operations such as managing users, routes, drivers, fee statuses, and emergency handling (SOS). This Flutter-based project is built for educational institutions to ensure smooth communication and management between administrators, drivers, and students.
 
-## Key Features
+## Features
 
-- **Admin Dashboard**: A dynamic dashboard that allows the admin to manage users, routes, drivers, fee details, and feedback from a single place.
-- **User Management**: Admin can add new users, view existing users, and manage their details.
-- **Route Management**: Ability to add new routes and view existing routes.
-- **Driver Management**: Add new drivers and view details of all the drivers in the system.
-- **Emergency (SOS)**: In case of emergencies, users can trigger SOS alerts, and the admin can view the details of the user, including the route and bus number. All SOS alerts are logged in history for later review.
-- **Fee Management**: View the fee status of all users, verify individual user's fee status, and generate fee receipts for users. Options include viewing fully paid users, partly paid users, users with EMI plans, and more.
-- **Feedback System**: Admin can view feedback from users and respond accordingly.
-- **Update History**: Keeps track of all updates made in the system for audit and review.
+1. **User Management**
+   - Add and view users, including their details like name, enrollment number, contact information, boarding point, etc.
+   - Manage and track drivers, routes, and other essential personnel.
 
-## Pages & Modules
+2. **Routes Management**
+   - Add new routes and view existing routes.
+   - Easy interface for administrators to manage transportation routes.
 
-### Admin Dashboard
-- A grid-based dashboard with modules for managing Users, Routes, Drivers, Fee Details, Updates, Feedbacks, and SOS alerts.
-  
-### User Management
-- **Add New User**: Form-based interface to add users with fields for full name, enrollment number, institute, course, address, contact details, and boarding point.
-- **View Existing Users**: Lists all existing users with options to edit or remove users.
+3. **Fee Management**
+   - View fee status across various categories (fully paid, partly paid, EMI users).
+   - Verify fee payment for individual students based on enrollment number or institute.
+   - Generate fee receipts.
 
-### Route Management
-- **Add New Route**: Allows admin to define new bus routes with start and end points.
-- **View Existing Routes**: Displays a list of all available routes.
+4. **Emergency (SOS) System**
+   - Real-time SOS alerts with user details, bus numbers, and routes.
+   - SOS history for tracking past emergencies and actions taken.
 
-### Driver Management
-- **Add New Driver**: A form to register new drivers.
-- **View Existing Drivers**: Displays a list of all registered drivers.
+5. **Feedback System**
+   - Collect and view feedback from users.
+   - Feedback management interface for administrators to analyze user input.
 
-### SOS Management
-- Displays live SOS alerts in real-time and stores history for future reference. Admin can view user details, including route and bus number, when SOS is triggered.
+6. **Updates**
+   - Administrators can post updates for students and drivers.
+   - Update history for record keeping.
 
-### Fee Management
-- **View Fee Status**: Summarizes fee status for all users, including fully paid, partly paid, and users on EMI.
-- **Verify Fee Status**: Allows the admin to verify a user's fee status by searching using enrollment number or institute details.
-- **Generate Receipt**: After fee verification, admin can generate and print receipts for users.
+## Tech Stack
 
-### Feedback
-- Displays feedback provided by users with detailed user information and feedback content.
+- **Flutter**: Frontend for mobile app development.
+- **Dart**: Core language for Flutter development.
+- **Firebase**: Backend for user authentication and database management.
 
-### Updates
-- Logs and displays all updates made in the system, providing transparency and a historical record.
+## Pages
 
-## Getting Started
+1. **Admin Dashboard**: Main control panel for managing users, routes, drivers, fee status, and emergency (SOS) situations.
+   
+2. **Add/Existing User**: Add new users to the system and view existing users.
 
-### Prerequisites
-- [Flutter](https://flutter.dev/docs/get-started/install) installed on your system.
-- Android Studio or Visual Studio Code for running and debugging the app.
+3. **Add/Existing Driver**: Add new drivers and view details of current drivers.
 
-### Installation
+4. **Routes Management**: Manage and view existing routes.
+
+5. **Fee Management**:
+   - View fee statuses (fully paid, partially paid, etc.).
+   - Verify fee status by searching with enrollment number or institute.
+   - Generate fee receipts.
+
+6. **SOS Screen**: Displays live SOS alerts with user information and history of previous emergencies.
+
+7. **Feedback**: View and manage user feedback with 20 demo entries provided for testing.
+
+## Installation
+
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/sarth.git
+   git clone https://github.com/yourusername/sarthi.git
    ```
-2. Navigate to the project directory:
-   ```bash
-   cd sarth
-   ```
-3. Install dependencies:
+2. Install dependencies:
    ```bash
    flutter pub get
    ```
-4. Run the app:
+3. Run the app:
    ```bash
    flutter run
    ```
 
-### Project Structure
+## Demo Data
 
-```
-lib/
-│── AdminDashboard.dart
-│── AddUser.dart
-│── AddDriver.dart
-│── ExistingUser.dart
-│── ExistingDriver.dart
-│── AddRoute.dart
-│── ExistingRoute.dart
-│── SOSScreen.dart
-│── FeeDetails.dart
-│── Feedback.dart
-│── Updates.dart
-│── main.dart
-└── ProfilePage.dart
-```
+- The app includes dummy data for users, drivers, routes, fee statuses, and feedback for testing purposes.
 
-## Contributing
+## Future Improvements
 
-Contributions are welcome! If you have any suggestions or improvements, feel free to submit a pull request.
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Commit your changes (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Open a pull request.
+- Live location tracking of buses.
+- Notifications for updates, route changes, or emergencies.
+- Support for multiple institutes and broader customization options.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is open-sourced under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
 ---
 
-Happy Coding!
+Built with ❤️ by Eric and the team.
