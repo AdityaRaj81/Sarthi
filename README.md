@@ -17,7 +17,7 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 --->
 
-# Sarthi
+# Sarthi - A Complete Transportation Management System
 
 Sarthi is a comprehensive student transportation management system designed to streamline operations such as managing users, routes, drivers, fee statuses, and emergency handling (SOS). This Flutter-based project is built for educational institutions to ensure smooth communication and management between administrators, drivers, and students.
 
