@@ -104,4 +104,4 @@ This project is open-sourced under the MIT License. See the [LICENSE](LICENSE) f
 
 ---
 
-Built with ❤️ by Eric and the team.
+Built with ❤️ by Aditya and the team.
