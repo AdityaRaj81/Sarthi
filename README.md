@@ -77,7 +77,7 @@ Sarthi is a comprehensive student transportation management system designed to s
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/sarthi.git
+   git clone https://github.com/AdityaRaj81/sarthi.git
    ```
 2. Install dependencies:
    ```bash
